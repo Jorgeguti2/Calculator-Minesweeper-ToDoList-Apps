@@ -2,6 +2,9 @@ img#logo {
     width: 5%;
 }
 
-nav {
-    background-color: black;
+.containerflex {
+    display: flex; 
+    grid: auto auto / auto auto auto auto; 
+    background-color: black; 
+    padding: 10px; 
 }
