@@ -3,9 +3,12 @@ img#logo {
     width: 5%;
 }
 
-/* make the container a flex grid to be able to put the elements side to side */
+/* make the container a flex grid to be able to put the elements side to side,
+with the logo on the left and the hyperlinks on the right */
 .containerflex {
     display: flex; 
+    justify-content: space-between;
+    align-items: center;
     grid: auto auto / auto auto auto auto; 
     background-color: black; 
     padding: 10px; 
@@ -16,4 +19,5 @@ img#logo {
     color: white;
     text-decoration: none;
     padding: 10px;
+    font-size: 25px;
 }
