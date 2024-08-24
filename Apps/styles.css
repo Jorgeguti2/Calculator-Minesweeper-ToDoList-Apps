@@ -7,7 +7,9 @@
 
 /* Make the image smaller to fit as a logo in the top left corner */
 img#logo {
-    object-fit: scale-down;
+    object-fit: cover;
+    width:5%; 
+    height:100%;
 }
 
 /* make the container a flex grid to be able to put the elements side to side,
