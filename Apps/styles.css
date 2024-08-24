@@ -1,10 +1,18 @@
+/* Make the image smaller to fit as a logo in the top left corner */
 img#logo {
     width: 5%;
 }
 
+/* make the container a flex grid to be able to put the elements side to side */
 .containerflex {
     display: flex; 
     grid: auto auto / auto auto auto auto; 
-    background-color: black; 
+    background-color: white; 
     padding: 10px; 
+}
+
+/* edit the text of the hyperlinks */
+.outline {
+    color: white;
+    text-decoration: none;
 }
