@@ -7,7 +7,7 @@ img#logo {
 .containerflex {
     display: flex; 
     grid: auto auto / auto auto auto auto; 
-    background-color: white; 
+    background-color: black; 
     padding: 10px; 
 }
 
@@ -15,4 +15,5 @@ img#logo {
 .outline {
     color: white;
     text-decoration: none;
+    padding: 10px;
 }
