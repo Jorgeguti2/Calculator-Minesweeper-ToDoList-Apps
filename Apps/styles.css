@@ -1,6 +1,13 @@
+/* Override default style and set padding and margin to nothing */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
 /* Make the image smaller to fit as a logo in the top left corner */
 img#logo {
-    width: 5%;
+    width: 100%;
 }
 
 /* make the container a flex grid to be able to put the elements side to side,
