@@ -53,4 +53,7 @@ with the logo on the left and the hyperlinks on the right */
     color: black;
     height: 50px;
     width: 25%;
+    margin:auto;
+    line-height:51px;
+    vertical-align:middle;
 }
