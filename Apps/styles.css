@@ -31,3 +31,9 @@ with the logo on the left and the hyperlinks on the right */
     padding: 10px;
     font-size: 25px;
 }
+
+/* Add a hover style to the hyperlinks */
+.outline:hover {
+    color: grey;
+    border-bottom: 3px solid grey;
+}
