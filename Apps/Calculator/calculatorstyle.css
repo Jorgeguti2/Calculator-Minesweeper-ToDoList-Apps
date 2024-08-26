@@ -38,9 +38,15 @@ with the logo on the left and the hyperlinks on the right */
     border-bottom: 3px solid grey;
 }
 
+.calculatordiv {
+    display: flex;
+}
+
 /* style the box that will show the numbers inputted by user and result */
 .calculatorscreen {
     border: solid;
     border-color: black;
     color: black;
+    height: 50px;
+    width: 25%;
 }
