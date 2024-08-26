@@ -40,7 +40,10 @@ with the logo on the left and the hyperlinks on the right */
 
 /* Style the whole calculator object to be in the center of the page */
 .calculatordiv {
-    
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 /* style the box that will show the numbers inputted by user and result */
