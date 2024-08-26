@@ -38,8 +38,9 @@ with the logo on the left and the hyperlinks on the right */
     border-bottom: 3px solid grey;
 }
 
+/* Style the whole calculator object to be in the center of the page */
 .calculatordiv {
-    display: flex;
+    
 }
 
 /* style the box that will show the numbers inputted by user and result */
