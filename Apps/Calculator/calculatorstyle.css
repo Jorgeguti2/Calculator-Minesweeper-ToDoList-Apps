@@ -37,3 +37,10 @@ with the logo on the left and the hyperlinks on the right */
     color: grey;
     border-bottom: 3px solid grey;
 }
+
+/* style the box that will show the numbers inputted by user and result */
+.calculatorscreen {
+    border: solid;
+    border-color: black;
+    color: black;
+}
