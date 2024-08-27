@@ -42,18 +42,26 @@ with the logo on the left and the hyperlinks on the right */
 .calculatordiv {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    border: 3px solid;
     padding: 10px;
+    background-color: black;
 }
 
 /* style the box that will show the numbers inputted by user and result */
 .calculatorscreen {
     border: solid;
-    border-color: black;
-    color: black;
+    border-color: white;
     height: 50px;
-    width: 25%;
+    width: 100%;
     margin:auto;
     line-height:51px;
     vertical-align:middle;
 }
+
+/* style the buttons to be under the calculator screen in a grid format */
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* style each individual button to make it look nicer */
