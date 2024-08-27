@@ -41,8 +41,8 @@ with the logo on the left and the hyperlinks on the right */
 /* Style the whole calculator object to be in the center of the page */
 .calculatordiv {
     margin: auto;
-    width: 50%;
-    border: 3px solid;
+    width: 25.5%;
+    border: 25px solid;
     padding: 10px;
     background-color: black;
 }
@@ -51,7 +51,7 @@ with the logo on the left and the hyperlinks on the right */
 .calculatorscreen {
     border: solid;
     border-color: white;
-    height: 50px;
+    height: 100px;
     width: 100%;
     margin:auto;
     line-height:51px;
@@ -60,8 +60,17 @@ with the logo on the left and the hyperlinks on the right */
 
 /* style the buttons to be under the calculator screen in a grid format */
 .buttons{
-    display: grid;
+    display: flex grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-/* style each individual button to make it look nicer */
+/* style each individual button */
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    align-items: center;
+}
